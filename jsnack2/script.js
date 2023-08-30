@@ -27,11 +27,11 @@ while (i <= 2) {
 }
 if (userWordList[0].length > userWordList[1].length) {
 
-    alert('La parola' + " " + userWordList[0] + " " + "è più lunga")
+    alert('La parola' + " " + userWordList[1] + " " + "è più corta" + " " + "rispetto a" + " " + userWordList[0])
 
 } else if (userWordList[0].length < userWordList[1].length){
 
-    alert('La parola' + " " + userWordList[1] + " " + "è più lunga")
+    alert('La parola' + " " + userWordList[0] + " " + "è più corta" + " " + "rispetto a" + " " + userWordList[1])
 
 } else {
 
